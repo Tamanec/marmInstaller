@@ -1,0 +1,17 @@
+{
+    "name": "marm/module-installer",
+    "type": "composer-plugin",
+    "license": "proprietary",
+    "extra": {
+        "path": "modules/"
+    },
+    "require": {
+        "cartalyst/composer-installers": "1.*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.cartalyst.com"
+        }
+    ]
+}
