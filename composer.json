@@ -3,10 +3,10 @@
     "type": "composer-plugin",
     "license": "proprietary",
     "extra": {
-        "class": "Composer\\ModuleInstallerPlugin"
+        "class": "marm\\Composer\\ModuleInstallerPlugin"
     },
     "autoload": {
-        "psr-4": {"marm\\": "src/"}
+        "psr-4": {"marm\\": "/"}
     },
     "require": {
         "composer-plugin-api": "1.0.0"
