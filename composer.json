@@ -3,7 +3,7 @@
     "type": "composer-plugin",
     "license": "proprietary",
     "extra": {
-        "class": "phpDocumentor\\Composer\\TemplateInstallerPlugin"
+        "class": "marm\\Composer\\ModuleInstallerPlugin"
     },
     "autoload": {
         "psr-4": {"marm\\": "src/"}
