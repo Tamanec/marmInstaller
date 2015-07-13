@@ -3,15 +3,12 @@
     "type": "composer-plugin",
     "license": "proprietary",
     "extra": {
-        "path": "modules/"
+        "class": "phpDocumentor\\Composer\\TemplateInstallerPlugin"
+    },
+    "autoload": {
+        "psr-4": {"marm\\": "src/"}
     },
     "require": {
-        "cartalyst/composer-installers": "1.*"
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packages.cartalyst.com"
-        }
-    ]
+        "composer-plugin-api": "1.0.0"
+    }
 }

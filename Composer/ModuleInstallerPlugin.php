@@ -1,12 +1,12 @@
 <?php
 
-namespace phpDocumentor\Composer;
+namespace marm\Composer;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
 
-class TemplateInstallerPlugin implements PluginInterface
+class ModuleInstallerPlugin implements PluginInterface
 {
 	public function activate(Composer $composer, IOInterface $io)
 	{
